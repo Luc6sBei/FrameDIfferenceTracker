@@ -1,0 +1,9 @@
+To run the code, servarl libraryies are necessary to install:
+pip install opencv-contrib-python
+pip install numpy
+pip install csv
+
+Before runnning the tracking code, the user must firstly run the getTruth code to measure the ground truth value.
+When the program is running, user can pause the video by pressing "SPACE" and quit the program by pressing "ESC".
+After two algorithm finish, the csv file will be create to save information about the tracking obejcet. 
+Then, run the comparePlot.py to plot the status information about two tracking methods.
